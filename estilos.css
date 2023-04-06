@@ -172,8 +172,8 @@ header {
 }
 
 .libros {
-    width: 300px;
-    height: 300px;
+    width: 85%;
+    height: 40%;
     padding-top: 20px;
     padding-left: 60px;
 }
@@ -309,7 +309,6 @@ header {
 
 .social-media {
     width: 1000px;
-    border: solid white;
 }
 
 .footer-social-icons {
@@ -357,7 +356,7 @@ header {
 
 /*-------------------------------------------------*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 575px) {
 
     /*------NAVEGADOR------*/
     nav {
@@ -366,13 +365,13 @@ header {
     }
 
     .text-nav {
-        display: block;
-        margin-left: -950px;
+        text-align: center;
+        margin-right: 100px;
         margin-top: 50px;
-        line-height: 1px;
+        line-height: 0px;
         color: antiquewhite;
-
-    }
+        font-size: small;
+ }
 
     /*------HEADER------*/
 

@@ -362,7 +362,7 @@ header {
     /*------NAVEGADOR------*/
 
     body {
-        width: auto;
+        width: 100%;
     }
 
     nav {
@@ -376,6 +376,7 @@ header {
     }
 
     .div-texto {
+        border: solid 1px red;
         margin-left: 155px;
         width: 390px;
     }

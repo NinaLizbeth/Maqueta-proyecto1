@@ -27,14 +27,14 @@ nav {
 }
 
 .div-texto {
-    width: 560px;
+    width: 515px;
     margin-top: -59px;
-    margin-left: 990px;
+    margin-left: 880px;
 }
 
 .text-nav {
     color: #62ead1ac;
-    margin: 10px;
+    margin: 5px;
     text-decoration: none;
     font-size: 20px;
     font-family: 'Edu NSW ACT Foundation', cursive;
@@ -103,8 +103,8 @@ header {
 }
 
 .search {
-    padding-left: 330px;
-    padding-top: 20px;
+    padding-left: 220px;
+    padding-top: 5px;
     width: 100px;
     justify-content: center;
 }
@@ -248,9 +248,9 @@ header {
 }
 
 .libroyflores {
-    width: 700px;
-    height: 600px;
-    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
 }
 
 .text-segundoheader {
@@ -277,7 +277,7 @@ header {
 .input-texto {
     width: 400px;
     float: right;
-    margin-top: -150px;
+    margin-top: -95px;
     margin-right: 200px;
 }
 
@@ -356,7 +356,7 @@ header {
 
 /*-------------------------------------------------*/
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 574px) {
 
     /*------NAVEGADOR------*/
     nav {

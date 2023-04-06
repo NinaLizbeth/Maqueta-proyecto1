@@ -371,12 +371,12 @@ header {
     }
 
     .text-nav {
-        font-size: 15px;
+        font-size: 12px;
         margin: 5px;
     }
 
     .div-texto {
-        margin-left: 160px;
+        margin-left: 155px;
         width: 390px;
     }
 
@@ -424,6 +424,8 @@ header {
     .search {
         margin-left: -135px;
         margin-top: 1150px;
+    }
+    .input-search{
         text-decoration: none;
     }
 

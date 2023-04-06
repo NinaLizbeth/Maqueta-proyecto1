@@ -364,14 +364,16 @@ header {
         width: 700px;
     }
 
-    .text-nav {
-        text-align: center;
-        margin-right: 100px;
-        margin-top: 50px;
-        line-height: 0px;
-        color: antiquewhite;
-        font-size: small;
- }
+        .text-nav {
+            font-size: 15px;
+            margin: 5px;
+        }
+    
+        .div-texto {
+    
+            margin-left: 299px;
+            width: 390px;
+        }
 
     /*------HEADER------*/
 

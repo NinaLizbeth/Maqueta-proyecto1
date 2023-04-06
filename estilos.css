@@ -359,6 +359,10 @@ header {
 @media only screen and (max-width: 574px) {
 
     /*------NAVEGADOR------*/
+
+    body{
+        width: 700px;
+    }
     nav {
         margin-left: 41px;
         width: 700px;
@@ -478,7 +482,6 @@ header {
 
     /*------FOOTER-----*/
     .footer {
-
         width: 700px;
         height: 450px;
         margin-left: 40px;

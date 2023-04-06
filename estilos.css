@@ -58,9 +58,10 @@ header {
 }
 
 
-.container-header1 .imagen-booktrack {
+.imagen-booktrack {
     width: auto;
-    height: 650px;
+    height: 685px;
+
     float: right;
     padding-right: 110px;
     padding-top: 20px;
@@ -360,59 +361,59 @@ header {
 
     /*------NAVEGADOR------*/
 
-    body{
-        width: 700px;
-    }
-    nav {
-        margin-left: 41px;
-        width: 700px;
+    body {
+        width: 100%px;
     }
 
-        .text-nav {
-            font-size: 15px;
-            margin: 5px;
-        }
-    
-        .div-texto {
-    
-            margin-left: 280px;
-            width: 390px;
-        }
+    nav {
+        margin-left: 16px;
+        width: 570px;
+    }
+
+    .text-nav {
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    .div-texto {
+        margin-left: 200px;
+        width: 390px;
+    }
 
     /*------HEADER------*/
 
     header {
         height: 1350px;
-        width: 700px;
+        width: 570px;
         background-position: center;
-        margin-left: 40px;
+        margin-left: 15px;
         margin-top: 20px;
     }
 
-    .container-header1 {
-        width: 100px;
-        margin-left: 620px;
-
-    }
-
     .imagen-booktrack {
-        margin-top: 270px;
-        text-align: center;
+        width: auto;
+        height: 600px;
+        margin-top: 300px;
+        margin-right: -80px;
+
 
     }
 
     .text-header .text-header1 {
         float: left;
-        margin-top: -1000px;
-        margin-left: 180px;
+        margin-top: -950px;
+        font-size: 50px;
+        text-align: center;
+        margin-right: -100px;
 
     }
 
     .text-header2 {
         float: left;
-        margin-top: -795px;
+        margin-top: -750px;
         margin-bottom: 30px;
         font-size: 10px;
+        line-height: 30px;
     }
 
     .text-header3 {
@@ -428,18 +429,30 @@ header {
     /*------CARDS-----*/
 
     .flex-container {
-        width: 700px;
+        width: 570px;
         height: 2450px;
-        margin-left: 40px;
+        margin-left: 15px;
     }
 
-    .section2 {
-        width: 700px;
-        height: 1250px;
-        margin-left: 40px;
+    .recomendados2 {
+        line-height: 28px;
+        margin-top: 0px;
+        margin-bottom: 10px;
     }
+
+    .container .card {
+        margin-top: 30px;
+    }
+
+
+
 
     /*------SEGUNDO HEADER-----*/
+    .section2 {
+        width: 570px;
+        height: 1100px;
+        margin-left: 15px;
+    }
 
     .container-header2 {
         height: 650px;
@@ -448,8 +461,8 @@ header {
     }
 
     .libroyflores {
-        width: 550px;
-        height: 550px;
+        width: 400px;
+        height: 400px;
     }
 
     .text-segundoheader {
@@ -462,35 +475,39 @@ header {
 
     .h1-segundoheader {
         font-size: 30px;
+        margin-left: 70px;
     }
 
     .parrafo-header2 {
         font-family: 'Fasthand', cursive;
         font-size: 30px;
         color: rgba(0, 0, 0, 0.562);
+        margin-left: 31px;
+
     }
 
     .parrafo2 {
         font-weight: lighter;
         font-size: 20px;
+        margin-left: 50px;
     }
 
     .input-texto {
         margin-top: 50px;
-        margin-right: 80px;
+        margin-right: 60px;
     }
 
     /*------FOOTER-----*/
     .footer {
-        width: 700px;
-        height: 450px;
-        margin-left: 40px;
+        width: 570px;
+        height: 400px;
+        margin-left: 15px;
     }
 
     .footer-social-icons {
         width: 290px;
         height: 100px;
-        margin-left: 280px;
+        margin-left: 200px;
         position: absolute;
         margin-top: 290px;
     }
@@ -504,16 +521,16 @@ header {
     .footer-container {
         display: grid;
         grid-template-columns: auto auto auto auto;
-        width: 670px;
+        width: 545px;
         margin: 10px;
         margin-top: 40px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .pie-footer {
         font-size: 18px;
-        margin-left: 100px;
-        margin-top: 150px;
+        margin-left: 130px;
+        margin-top: 100px;
         font-size: 15px;
     }
 

@@ -13,24 +13,29 @@ body {
 /*------NAVEGADOR------*/
 
 nav {
-
-    position: relative;
-    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    /* position: relative; */
+    height: 100px;
     width: 90%;
     margin-left: 60px;
     margin-top: 12px;
     padding-right: 100px;
     padding-bottom: 10px;
+    margin-bottom: 15px;
     border: solid 1px #f08fd3;
     box-shadow: 0 0 10px 2px #da7ada;
+    z-index: 999;
 
 }
 
 .div-texto {
-    width: 515px;
-    margin-top: -59px;
-    margin-left: 880px;
+    display: flex;
+    justify-content: space-between;
 }
+
 
 .text-nav {
     color: #62ead1ac;
@@ -44,7 +49,7 @@ nav {
 
 .bookmark {
     width: 140px;
-    margin-top: -15px;
+    height: 100px;
     margin-left: 10px;
 }
 
@@ -357,7 +362,7 @@ header {
 
 /*-------------------MEDIA QUERIES------------------------------*/
 
-@media only screen and (max-width: 574px) {
+@media only screen and (max-width: 800px) {
 
     /*------NAVEGADOR------*/
 
@@ -366,20 +371,16 @@ header {
     }
 
     nav {
-        margin-left: 16px;
-        width: 570px;
+        width: 100vw;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .text-nav {
-        font-size: 12px;
-        margin: 5px;
+        display: none;
     }
 
-    .div-texto {
-        border: solid 1px red;
-        margin-left: 155px;
-        width: 390px;
-    }
 
     /*------HEADER------*/
 
@@ -426,7 +427,8 @@ header {
         margin-left: -135px;
         margin-top: 1150px;
     }
-    .input-search{
+
+    .input-search {
         text-decoration: none;
     }
 

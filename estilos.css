@@ -47,6 +47,11 @@ nav {
     font-weight: bold;
 
 }
+a:hover {
+    color:  #f197f1;
+}
+
+
 
 .bookmark {
     width: 140px;
@@ -58,6 +63,7 @@ nav {
 
 .header1 {
     width: 90%;
+    margin-left: 60px;
     background-image: url(imagenes/background.jpg);
 }
 
@@ -114,7 +120,6 @@ nav {
     height: 3rem;
     border: solid 3px #f08fd3;
     box-shadow: 0 0 10px 2px #da7ada;
-    /* border: solid 5px rgb(173, 121, 163); */
     background-image: url(iconos/icons8-magnifying-glass-tilted-left-48.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -562,7 +567,7 @@ nav {
     }
 
     .pie-footer {
-        margin-top: 40px;
+        margin-top: 45px;
         margin-left: -10px;
         font-size: 15px;
     }

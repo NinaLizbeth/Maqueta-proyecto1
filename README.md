@@ -1,5 +1,5 @@
 #  :sparkles: **1er proyecto de bootcamp “Desarrollo Web Full Stack”(Landing page).** :sparkles:
-![visual studio code logo](github.jpeg)
+![github](https://user-images.githubusercontent.com/126796651/231268255-e84e560e-f176-44c0-9217-09170707155b.jpeg)
 
 ## *Maqueta de página de landing ficticia creada para entrega de 1er proyecto UDD.* :notebook:
 ---

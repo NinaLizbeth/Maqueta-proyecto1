@@ -57,10 +57,7 @@ nav {
 /*--------- HEADER 1---------- */
 
 .header1 {
-
     width: 90%;
-    margin-left: 60px;
-    height: 100vh;
     background-image: url(imagenes/background.jpg);
 }
 
@@ -565,7 +562,7 @@ nav {
     }
 
     .pie-footer {
-        margin-top: 30px;
+        margin-top: 40px;
         margin-left: -10px;
         font-size: 15px;
     }

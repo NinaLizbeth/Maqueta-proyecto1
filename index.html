@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Traveling BookStore</title>
-        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="normalize.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
@@ -17,11 +16,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Fasthand&display=swap"
                 rel="stylesheet">
+        <link rel="stylesheet" href="estilos.css">
+
+        <title>Document</title>
 </head>
 
 <body>
-
-        <!--NAVEGADOR-->
         <nav>
                 <img class="bookmark" src="iconos/libro.png" alt="">
                 <div class="div-texto">
@@ -31,18 +31,14 @@
                         <a class="text-nav" href="">INICIAR SESION</a>
                 </div>
         </nav>
-
-        <!-- ENCABEZADO -->
-        <header>
-                <div class="header-1">
-                        <!-- <div class="container-header1"> -->
-                        <img class="imagen-booktrack" src="imagenes/proyec.png" alt="">
-                        <!-- </div> -->
-                        <div class="text-header">
-                                <h1 class="text-header1">Traveling <br>BookStore</h1>
-                                <h3 class="text-header2">"Vamos a donde tu estes, para que nunca te quedes sin tus
+        <header class="header1">
+                <div class="container1">
+                        <div class="text-header1">
+                                <h1 class="h1-header1">Traveling <br>BookStore</h1>
+                                <h3 class="h3-header1">"Vamos a donde tu estes, para que nunca te quedes sin tus
                                         libros favoritos"</h3> <br>
-                                <p class="text-header3">Somos la primera librería itinerante del país. <br> Y tenemos la
+                                <p class="parrafo-header1">Somos la primera librería itinerante del país. <br> Y tenemos
+                                        la
                                         misión de llevar la lectura a cada rincón donde se requiera viajar entre
                                         páginas. <br>
                                         Tenemos a su disposición un amplio catálogo de libros con los mejores autores.
@@ -50,14 +46,15 @@
                                         Para encontrarlos solo debe ingresar su libro en la barra de búsqueda justo
                                         abajo.
                                 </p>
+                                <div class="search">
+                                        <input class=" input-search" type="search" placeholder="             Buscar...">
+                                </div>
                         </div>
-                        </div>
-                        <!-- BUSCADOR-->
-                        <div class="search">
-                                <input class=" input-search" type="search" placeholder="             Buscar...">
-                        </div>
+                        <figure class="figure-container">
+                                <img class="img-booktrack" src="imagenes/BOOKTRACK.jpeg" alt="">
+                        </figure>
+                </div>
         </header>
-
 
         <!-- SECTION -->
         <section class="flex-container">
@@ -69,21 +66,20 @@
                 <div class="container">
                         <div class="card">
                                 <img class="libros" src="imagenes/alice.jpg" alt="Descripción de la imagen">
-                                <h3 class="autor1">Alice Kellen<h3>
-                                                <p class="datosautor">Alice Kellen es una escritora española de
-                                                        literatura romántica juvenil y adulta. <br> Comenzó su carrera
-                                                        como escritora en 2013 con Llévame a cualquier lugar. <br>
-                                                        Entre sus obras se encuentran Nosotros en la luna, El día que
-                                                        dejó de nevar en Alaska, y chico que dibujaba constelaciones
-                                                        entre otras.
-                                                        maravillosas obras llenas de magia, romance y finales felices.
-                                                </p>
-                                                <div class="bodyautor">
-                                                        <img class="imagenautor img1" src="imagenes/alice (2).jpg"
-                                                                alt="">
-                                                </div>
-                                                <p class="idautor">Alice Kellen</p>
-                                                <p class="fecha">27 de marzo 2023</p>
+                                <h3 class="autor1">Alice Kellen</h3>
+                                <p class="datosautor">Alice Kellen es una escritora española de
+                                        literatura romántica juvenil y adulta. <br> Comenzó su carrera
+                                        como escritora en 2013 con Llévame a cualquier lugar. <br>
+                                        Entre sus obras se encuentran Nosotros en la luna, El día que
+                                        dejó de nevar en Alaska, y chico que dibujaba constelaciones
+                                        entre otras.
+                                        maravillosas obras llenas de magia, romance y finales felices.
+                                </p>
+                                <div class="bodyautor">
+                                        <img class="imagenautor img1" src="imagenes/alice (2).jpg" alt="">
+                                </div>
+                                <p class="idautor">Alice Kellen</p>
+                                <p class="fecha">27 de marzo 2023</p>
                         </div>
                         <!-- CARD 2 -->
                         <div class="card">
@@ -120,61 +116,62 @@
                         </div>
                 </div>
         </section>
+        <header class="header2">
+                <div class="container2">
+                        <figure class="figure-container2">
+                                <img class="img-lyf" src="imagenes/libross.jpeg" alt="">
+                        </figure>
+                        <div class="text-header2">
+                                <h1 class="h1-header2">UNETE A NUESTRO CLUB DE BENEFICIOS</h1>
+                                <h3 class="h3-header2">"Un mundo lleno de letras a tu alcance."</h3> <br>
+                                <p class="parrafo-header2">El club de beneficios de Traveling BookStore es un
+                                        programa de fidelización para nuestros clientes. Siendo parte de
+                                        nuestro club podrás acceder a nuestras novedades y noticias
+                                        importantes, descuentos increibles en nuestros productos,
+                                        promociones, invitaciones a eventos especiales como firmas de
+                                        libros solo para miembros de la comunidad y mucho más. Solo
+                                        debes ingresar tu mail y nos contactaremos contigo.
+                                </p>
+                                <div class="search2">
+                                        <input class=" input-search2" type="mail" placeholder="             Enviar...">
+                                </div>
+                        </div>
 
-        <!-- SECTION 2 -->
-        <section class="section2">
-                <div class="container-header2">
-                        <img class="libroyflores" src="imagenes/libross.jpeg" alt="">
-                        <div class="text-segundoheader">
-                                <h1 class="h1-segundoheader">UNETE A NUESTRO CLUB DE BENEFICIOS<h1>
-                                                <p class="parrafo-header2">Un mundo lleno de letras a tu alcance.</p>
-                                                <p class="parrafo2">El club de beneficios de Traveling BookStore es un
-                                                        programa de fidelización para nuestros clientes. Siendo parte de
-                                                        nuestro club podrás acceder a nuestras novedades y noticias
-                                                        importantes, descuentos increibles en nuestros productos,
-                                                        promociones, invitaciones a eventos especiales como firmas de
-                                                        libros solo para miembros de la comunidad y mucho más. Solo
-                                                        debes ingresar tu mail y nos contactaremos contigo.</p>
-                        </div>
-                        <!-- INGRESAR MAIL -->
-                        <div class="input-texto">
-                                <input class="mail" type="mail" placeholder="             Email...">
-                        </div>
                 </div>
-        </section>
-
-        <!-- FOOTER -->
+        </header>
 
         <footer class="footer">
-                <div class="footer-social-icons">
-                        <a href=""><img class="icono-social" src="iconos/facebook.png" alt=""></a>
-                        <a href=""> <img class="icono-social" src="iconos/twitter.png" alt=""></a>
-                        <a href=""> <img class="icono-social" src="iconos/INSTAGRAM.png" alt=""></a>
-                </div>
-
-                <div class="footer-container">
-
-                        <div class="footer-column">
-                                <p class="p-footer">NOSOTROS</p><br>
-                                <a class="enlaces-footer" href="">Como comprar</a><br>
-                                <a class="enlaces-footer" href="">Cambios <br> y devoluciones.</a><br>
-                                <a class="enlaces-footer" href="">Medios de pago</a><br>
-                                <a class="enlaces-footer" href="">Club de beneficios</a>
+                <div class="todo-footer">
+                        <div class="footer-social-icons">
+                                <a href=""><img class="icono-social" src="iconos/facebook.png" alt=""></a>
+                                <a href=""> <img class="icono-social" src="iconos/twitter.png" alt=""></a>
+                                <a href=""> <img class="icono-social" src="iconos/INSTAGRAM.png" alt=""></a>
                         </div>
 
-                        <div class="footer-column">
-                                <P class="p-footer">AUTORES</P><br>
-                                <a class="enlaces-footer" href="">Autores <br> independientes</a><br>
-                                <a class="enlaces-footer" href="">Editoriales</a><br>
-                                <a class="enlaces-footer" href="">Derechos de autor</a>
-                        </div>
+                        <div class="footer-container">
 
-                        <div class="footer-column">
-                                <p class="p-footer">LEGAL</p><br>
-                                <a class="enlaces-footer" href="">Terminos y condiciones</a><br>
-                                <a class="enlaces-footer" href="">Politicas de privacidad</a><br>
-                                <a class="enlaces-footer" href="">Derechos de autor</a><br>
-                                <a class="enlaces-footer" href="">Promociones</a>
+                                <div class="footer-column">
+                                        <p class="p-footer">NOSOTROS</p><br>
+                                        <a class="enlaces-footer" href="">Como comprar</a><br>
+                                        <a class="enlaces-footer" href="">Cambios <br> y devoluciones.</a><br>
+                                        <a class="enlaces-footer" href="">Medios de pago</a><br>
+                                        <a class="enlaces-footer" href="">Club de beneficios</a>
+                                </div>
+
+                                <div class="footer-column">
+                                        <P class="p-footer">AUTORES</P><br>
+                                        <a class="enlaces-footer" href="">Autores <br> independientes</a><br>
+                                        <a class="enlaces-footer" href="">Editoriales</a><br>
+                                        <a class="enlaces-footer" href="">Derechos de autor</a>
+                                </div>
+
+                                <div class="footer-column">
+                                        <p class="p-footer">LEGAL</p><br>
+                                        <a class="enlaces-footer" href="">Terminos y condiciones</a><br>
+                                        <a class="enlaces-footer" href="">Politicas de privacidad</a><br>
+                                        <a class="enlaces-footer" href="">Derechos de autor</a><br>
+                                        <a class="enlaces-footer" href="">Promociones</a>
+                                </div>
                         </div>
                 </div>
                 <div class="pie-footer">
@@ -182,6 +179,7 @@
                 </div>
 
         </footer>
+
 
 </body>
 

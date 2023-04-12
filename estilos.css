@@ -32,6 +32,10 @@ nav {
 
 }
 
+.menu-responsive{
+    display: none;
+}
+
 .div-texto {
     display: flex;
     justify-content: space-between;
@@ -412,9 +416,19 @@ a:hover {
         margin-right: 0px;
     }
 
-    .text-nav {
+    .menu-responsive {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+
+    .div-texto {
         display: none;
     }
+.text-nav{
+    font-size: 15px;
+}
 
     .bookmark {
         margin-left: 100px;
@@ -459,7 +473,7 @@ a:hover {
         height: 20rem;
         margin-left: -276px;
         position: absolute;
-        top: 380px;
+        top: 500px;
 
 
     }
